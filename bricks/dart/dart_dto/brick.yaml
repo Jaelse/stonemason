@@ -1,0 +1,14 @@
+name: dart_dto
+description: generate a dto
+
+version: 0.1.0+1
+
+environment:
+  mason: ">=0.1.0-dev.41 <0.1.0"
+
+vars:
+  dto_name:
+    type: string
+    description: Name of the dto folders, files and classes
+    default: unnamed
+    prompt: What is the name of the dto?

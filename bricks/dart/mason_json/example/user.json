@@ -1,0 +1,10 @@
+{
+  "dto_name": "user",
+  "entity_name": "user",
+  "additionals": ["copyWith", "json", "equatable", "toString"],
+  "style": "json_serializable",
+  "relations": [{ "name": "user" }],
+  "properties": [
+    { "name": "firstName", "type": "String?" }
+  ]
+}

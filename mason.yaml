@@ -3,12 +3,8 @@
 bricks:
   # Sample Brick
   # Run `mason make hello` to try it out.
-  hello:
-    path: bricks/hello
-  # Bricks can also be imported via git url.
-  # Uncomment the following lines to import
-  # a brick from a remote git url.
-  # widget:
-  #   git:
-  #     url: https://github.com/felangel/mason.git
-  #     path: bricks/widget
+  hello: 0.1.0+1
+  dart_dto:
+    path: bricks/dart/dart_dto
+  java_dto:
+    path: bricks/java/java_dto

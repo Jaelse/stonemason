@@ -1,0 +1,9 @@
+{
+  "dto_name": "user",
+  "entity_name": "user",
+  "additionals": ["builder", "getter", "setter", "toString"],
+  "relations": [{ "name": "user" }],
+  "properties": [
+    { "name": "firstName", "type": "String", "isNullable": true }
+  ]
+}

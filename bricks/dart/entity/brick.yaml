@@ -1,0 +1,14 @@
+name: entity
+description: generate a entity
+
+version: 0.1.0+1
+
+environment:
+  mason: ">=0.1.0-dev.41 <0.1.0"
+
+vars:
+  entity_name:
+    type: string
+    description: Name of the entity
+    default: unnamed
+    prompt: What is the name of entity?

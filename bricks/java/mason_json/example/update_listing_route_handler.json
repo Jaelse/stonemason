@@ -1,0 +1,12 @@
+{
+  "route_handler_name": "listing",
+  "package_name": "com.whoknowsus.mysmerisebe.api.listings.handlers",
+  "dependencies": [
+    {
+      "name": "ListingService"
+    },
+    {
+      "name": "ListingAssembler"
+    }
+  ]
+}
